@@ -34,7 +34,6 @@
         :rows-per-page-items="[]" 1ページあたり件数セレクトの非表示
        -->
       <v-data-table
-      style="z-index:0 !important;"
          :headers="headers"
          :items="userList"
          :search="search"
