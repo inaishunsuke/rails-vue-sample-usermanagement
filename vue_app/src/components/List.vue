@@ -93,7 +93,7 @@
                       v-model="selectedUser.name"
                       label="ユーザ名(*)"
                       :rules="nameRules"
-                      :counter="10"
+                      :counter="16"
                       required
                     ></v-text-field>
                   </v-flex>
